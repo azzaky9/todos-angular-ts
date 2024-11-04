@@ -1,0 +1,7 @@
+<div>
+  <ul>
+    @for (todo of todos; track todo.id) {
+      <li>{{ todo.name }} - {{ todo.createDate }}</li>
+    }
+  </ul>
+</div>
